@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather APP</title>
+    <link rel="stylesheet" href="{% static "/style.css" %}"/>
+</head>
+<body>
+
+    <div class="menu">
+        <div class="menu-text">Введіть назву міста англійською</div>
+        <form action="city/" class="form__group" method="post">
+        {% csrf_token %}
+        <input name="your_city" type="text" class="city_input"/>
+        <input type="submit", value="OK" class="city_submit">
+    </form>
+
+<script>
+    function func(){
+    document.getElementById("edit").innerHTML = "{{weather}}"
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.menu{
+    background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.menu-text{
+   font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form__group{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.city_input{
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #1e90ff; /* Border color for the input field */
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.city_submit{
+   background-color: #1e90ff; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+#Test.html
+
+.weather-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.city-name {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.weather-condition {
+  font-size: 36px;
+  margin-top: 30px;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static "/style.css" %}"/>
+</head>
+<body>
+    <div class="weather-container">
+    <div class="city-name"> Місто: {{city}} </div>
+    <p class="weather-condition"> Температура: <b>{{temp}}</b> по Цельсію</p>
+        <p class="weather-condition"> Вологість: <b>{{humid}}</b></p>
+        <p class="weather-condition"> Швидкість вітру: <b>{{wind}}</b></p>
+        <p class="weather-condition">Дощ: <b>{{rain}}</b></p>
+    </div>
+</body>
+</html>
